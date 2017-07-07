@@ -60,15 +60,24 @@ html {
 	background: #89edff;
 	border: 1px solid #38cfea;
 	box-sizing: border-box;
-	height: 300px;
 	margin: 0 auto;
 	text-align: center;
-	width: 60%;		
+	width: 60%;	
+	min-width: 455px;
+	height: 50vh;
+	position: relative;	
 }
+
 .inner {
 	background: #fff;
 	border: 1px solid #38cfea;
 	box-sizing: border-box;
 	float: left;
-	width: 150px;
+	padding: 25px;
+	width: 20%;
+	min-width: 150px;
+	position: relative;
+    top: 50%;
+	left: 50%;
+    transform: translate(-150%, -50%);
 }
