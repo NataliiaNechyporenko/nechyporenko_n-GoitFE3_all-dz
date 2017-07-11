@@ -51,11 +51,8 @@
 	letter-spacing: 1px;
 	height: 31px;
 	width: 190px;
-	transition: all 0.1s linear;
-    -webkit-transition: all 0.1s linear; /** Chrome & Safari **/
-    -moz-transition: all 0.1s linear; /** Firefox **/
-    -o-transition: all 0.1s linear; /** Opera **/
 }
+
 .product-item__label-installment:hover {
     transform: translate(-3px,3px);
     -webkit-transform: translate(-3px,3px); /** Chrome & Safari **/
