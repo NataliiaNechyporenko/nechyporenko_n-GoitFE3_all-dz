@@ -22,8 +22,9 @@ div {
 
 .wrap {
 	background: #fdc02c;
+	box-sizing: content-box;
 	margin-bottom: 20px;
-	width: 100%;
+	padding: 20px;
 }
 
 .wrap:after {
@@ -34,17 +35,16 @@ div {
 
 .main {
 	background: #f5f5f5;
-	height: 700px;
+	height: 400px;
 	float: left;
-	margin: 20px;
-	width: 65.70585077831455%;
+	margin-right: 2%;
+	width: 68%;
 }
 
 .sidebar {
 	background: #f5f5f5;
-	height: 700px;
+	height: 400px;
 	float: right;
-	margin: 20px;
 	width: 29%;
 }
 
