@@ -13,16 +13,16 @@
 
 .clouds {
   position: absolute;
-  left: 214px;
-  top: -8px;
+  left: 215px;
+  top: 0px;
   width: 350px;
 }
 
 .world {
   position: absolute;
-  right: -4px;
-  bottom: 18px;
-  width: 101.7%;
+  left: 0;
+  bottom: 13px;
+  width: 100%;
 }
 
 .ship {
@@ -34,9 +34,8 @@
 
 .water {
   position: absolute;
-  right: -3px;
-  bottom: 8px;
-  width: 101.7%;
+  bottom: 0;
+  width: 100%;
 }
 
 .dark-water {
